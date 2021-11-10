@@ -1,0 +1,10 @@
+# Everything the developer needs in addition to the production requirements
+-r requirements.txt
+
+# Testing
+pytest
+
+black==19.10b.0
+flake8==3.9.2
+isort==5.9.3
+moto[mock_dynamodb2]
