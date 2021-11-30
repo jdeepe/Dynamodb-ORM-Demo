@@ -21,13 +21,7 @@ def test_dataschema(client):
         "dataset": "WorkOrder_v1",
         "status": "RETIRED",
         "description": "Schema for WO1",
-        "creation_timestamp": "2017-04-24T11:38:41.164Z",
         "last_updated_timestamp": "2017-12-24T22:38:47.346Z",
-        "glue_database": "Orders_Database",
-        "glue_table": "glWorkOrder_v1",
-        "schema_content": "",
-        "schema_content_s3": "",
-        "format": "",
         "version": 2,
     }
     response = client.post("/v1/dataschema/", json=data)

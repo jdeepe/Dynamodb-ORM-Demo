@@ -25,17 +25,6 @@ def load_dataschema_data():
             "description": "Schema for %s" % name,
             "creation_timestamp": "2017-04-24T11:38:41.164Z",
             "last_updated_timestamp": "2017-12-24T22:38:47.346Z",
-            "derived_from": "",
-            "replace_by": "",
-            "from_date": "2017-04-10",
-            "to_date": "2018-02-21",
-            "glue_database": "Orders_Database",
-            "glue_table": "glWorkOrder_v1",
-            "schema_content": "",
-            "schema_content_s3": "",
-            "format": "",
-            "compression": "",
-            "version": 2,
         }
         for key in data:
             setattr(data_schema, key, data[key])
